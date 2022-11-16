@@ -1,5 +1,5 @@
-name: raychat
-description: A reactive chat application fueled by a Firebase Realtime Database.
+name: flutterchat
+description: A chat application fueled by a Firebase Realtime Database.
 publish_to: 'none'
 
 version: 1.0.0+1
