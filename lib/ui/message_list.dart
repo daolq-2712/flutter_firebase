@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-
 class MessageList extends StatefulWidget {
   const MessageList({Key? key}) : super(key: key);
 
@@ -12,11 +11,12 @@ class MessageList extends StatefulWidget {
 class MessageListState extends State<MessageList> {
   final TextEditingController _messageController = TextEditingController();
   final ScrollController _scrollController = ScrollController();
+
   // TODO: Add Email String
 
   @override
   Widget build(BuildContext context) {
-    WidgetsBinding.instance!.addPostFrameCallback((_) => _scrollToBottom());
+    WidgetsBinding.instance.addPostFrameCallback((_) => _scrollToBottom());
     // TODO: Add MessageDao
 
     // TODO: Add UserDao
@@ -67,8 +67,7 @@ class MessageListState extends State<MessageList> {
   }
 
   // TODO: Replace _sendMessage
-  void _sendMessage() {
-  }
+  void _sendMessage() {}
 
   // TODO: Replace _getMessageList
   Widget _getMessageList() {
