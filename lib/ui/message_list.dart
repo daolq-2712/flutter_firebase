@@ -23,7 +23,7 @@ class MessageListState extends State<MessageList> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('RayChat'),
+        title: const Text('Flutter Chat'),
         // TODO: Replace with actions
       ),
       body: Padding(
